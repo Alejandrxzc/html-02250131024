@@ -1,0 +1,225 @@
+body {
+    background-color: #e1e1eb;
+    margin: 10px;
+    border-width: 3px;
+    border-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header {
+    background-color: rgb(59, 89, 152);
+    color:rgb(255, 255, 255);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1px;
+    margin: 0px;
+    text-align:center;
+    border-radius: 20px;
+    border-color: black;
+}
+section {
+    margin: 20px auto;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 15px;
+}
+.facebook{
+    position: absolute;
+    left: 40px;
+}
+.hoja_de_vida{
+    position: relative;
+    left: 150px;
+}
+nav ul{
+    background-color:rgb(59, 89, 152);
+    display: flex;
+    padding: 10px;
+    margin-left: 90px;
+    margin-right: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    justify-content: space-around;
+    border-radius: 15px;
+}
+nav a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+    list-style-type: style type none;;
+}
+.descripcionpersonal{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+.imagen-descripcion{
+    display: flex;
+    align-items: flex-start; 
+
+}
+.infoPersonal {
+    position: absolute;
+    left: 500px;
+}
+.foto {
+    position: relative;
+    left: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 30px; 
+}
+.foto img {
+    border-radius: 20px; 
+}
+.fotoMia {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style:italic;
+
+}
+.descripcion-texto {
+    margin-left: 20px; 
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.descripcion-texto p {
+    margin: 5px 0;
+    line-height: 1.6;
+}
+
+
+.descripcion-texto h2 {
+    margin-bottom: 10px; 
+}
+
+
+.descripcion-texto strong {
+    font-weight: bold;
+}
+
+
+.descripcion-texto a {
+    color: blue; 
+    text-decoration: none; 
+}
+.contacto {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background-color: white;
+    margin-left: 90px;
+    margin-right: 90px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.video-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+    width: 45%;
+}
+
+.video-text {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: bold; 
+    font-size: 1.2em; 
+}
+
+.familiapapa {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.foto-containerr {
+    margin-right: 20px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.foto-textoo {
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.foto-containerr img {
+    border-radius: 20px;
+    max-width: 100%;
+    height: auto;
+    margin-top: 10px;
+}
+
+.fotopapa {
+    text-align: center;
+    margin-top: 5px;
+    font-size: 0.9em;
+}
+
+.familiapapa h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.familiapapa p {
+    display: block; 
+    margin-bottom: 5px;
+}
+
+.rol {
+    display: block; 
+    margin-bottom: 2px;
+}
+
+.familiapapa strong {
+    font-weight: bold;
+}
+
+.familiapapa a {
+    color: blue;
+    text-decoration: none;
+}
+#galeria-fotos {
+    padding: 20px;
+    text-align: center;
+}
+.galeria-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 15px;
+    margin-top: 20px;
+}
+figure {
+    margin: 0;
+    border-radius: 5px;
+    overflow: hidden;
+}
+figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #eee;
+}
+figcaption {
+    padding: 10px;
+    font-size: 0.9em;   
+    color: #000000;
+    text-align: center;
+}
